@@ -1,0 +1,1 @@
+module thiitphong.dev/govanityurls
