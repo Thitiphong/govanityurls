@@ -1,8 +1,9 @@
-host: rakyll.pizza
+host: ucenter.thitiphong.dev
 
 paths:
-  /portmidi:
-    repo: https://github.com/rakyll/portmidi
+  /ms-session:
+    repo: https://kscm.kasikornbank.com:8443/715_MicroService/CICD_Common
+    vcs: git
 
   /launchpad:
     repo: https://github.com/rakyll/launchpad
