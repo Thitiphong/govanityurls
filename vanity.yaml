@@ -1,9 +1,17 @@
-host: ucenter.thitiphong.dev
+host: ucenter.dev
 
 paths:
-  /ms-session:
-    repo: https://kscm.kasikornbank.com:8443/715_MicroService/CICD_Common
+  /ms-sessionsync:
+    repo: https://kscm.kasikornbank.com:8443/715_MicroService/ms_sessionsync.git
     vcs: git
+
+  /ms-session-cloud:
+    repo: https://kscm.kasikornbank.com:8443/715_MicroService/ms_session_cloud.git
+    vcs: git 
+    
+  /common:
+    repo: https://kscm.kasikornbank.com:8443/715_MicroService/go-common.git
+    vcs: git     
 
   /launchpad:
     repo: https://github.com/rakyll/launchpad
