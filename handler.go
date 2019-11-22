@@ -97,7 +97,8 @@ func (h *handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	current := r.URL.Path
 	pc, subpath := h.paths.find(current)
 	if pc == nil && current == "/" {
-		h.serveIndex(w, r)
+		// h.serveIndex(w, r)
+		http.NotFound(w, r)
 		return
 	}
 	if pc == nil {
